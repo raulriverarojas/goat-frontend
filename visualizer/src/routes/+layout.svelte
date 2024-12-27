@@ -67,7 +67,7 @@
     </div>
   </div>
 {:else}
-	<div class="navbar top-5 left-0 right-0 flex justify-center z-10 mb-30">
+	<div class="navbar top-5 left-0 right-0 flex justify-center z-10 mb-32">
 		<ul class="menu bg-base-300 lg:menu-horizontal rounded-box">
 			<li>
 				<a href="/">

@@ -3,7 +3,7 @@
     import * as d3 from "d3"
     import { onMount } from 'svelte';
     const pitch = d3_soccer.pitch()
-        .height(300)                // Heigth of the SVG object (in pixels)
+        .height(600)                // Heigth of the SVG object (in pixels)
         .rotate(false)              // Rotate the pitch by 90 degrees
         .showDirOfPlay(false)       // Show an arrow on the plot to indicate the direction of play
         .shadeMiddleThird(false)    // Shade the middle third of the pitch
