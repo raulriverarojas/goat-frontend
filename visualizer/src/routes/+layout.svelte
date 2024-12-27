@@ -14,7 +14,7 @@
 </script>
 <!-- NavBar.svelte -->
 {#if isMobile}
-  <div class="navbar fixed top-5 left-0 right-0-center z-10">
+  <div class="navbar fixed top-5 left-0 right-0-center z-10 mb-4">
     <div class="navbar-start">
       <div class="dropdown ">
         <div tabindex="0" role="button" class="btn btn-ghost btn-circle">
@@ -67,7 +67,7 @@
     </div>
   </div>
 {:else}
-<div class="navbar fixed top-5 left-0 right-0 flex justify-center z-10">
+<div class="navbar fixed top-5 left-0 right-0 flex justify-center z-10 mb-30">
     <ul class="menu bg-base-300 lg:menu-horizontal rounded-box">
         <li>
             <a href="/">

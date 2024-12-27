@@ -14,4 +14,4 @@
         var svg = d3.select("#chart").call(pitch);
   });
 </script>
-<div id="chart" class="d3-soccer light-theme"></div>
+<div id="chart" class="d3-soccer light-theme justify-center items-center flex"></div>
